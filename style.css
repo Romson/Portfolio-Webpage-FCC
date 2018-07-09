@@ -137,14 +137,14 @@ a.navlinksLeft:hover {
   z-index: 20;
   }
 
-  @media screen and (max-width: 500px) {
-    .welcome-section {
-      background-image: url('images/bg-new.jpg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      width: 100%;
-    }  
-  }
+@media screen and (max-width: 500px) {
+  .welcome-section {
+    background-image: url('images/bg-new.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+  }  
+}
 
 /* div container under top-image styling */
 .rowUnderTop {
