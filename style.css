@@ -1,0 +1,334 @@
+/* navbar styling */
+.navbar-brand, #footerSection a, .btn-warning:hover, .form-check-label {
+  color: #fff !important;
+}
+
+.quote {
+  background-color: hsl(40, 100%, 50%);
+  padding: 7px;
+  border-radius: 5px;
+  color: rgba(0, 46, 91, 0.75);
+}
+.quote:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+a.quoteLink:hover {
+  color: rgb(0, 0, 0) !important;
+}
+  
+ul.nav.navbar-nav > li > a {
+  color: #fff;
+  font-size: 16px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+a.navlinksLeft:hover {
+  color: rgba(0, 46, 91, 0.75) !important;
+  background-color: hsl(40, 100%, 50%);
+}
+    
+/* top header1 styling */
+.header1 {
+  color: #ffffff;
+  font-size: 49px;
+  line-height: 22px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  transform-origin: 50% 50% 0px;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+  
+.topText {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  line-height: 31px;
+  font-weight: 300;
+  transform-origin: 50% 50% 0px;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0,0, 0, 0, 1, 0, 0, 0, 0, 1);
+  z-index: 6;
+  margin-top: 40px;
+}
+
+.developersColor {
+  color: rgb(255, 170, 0);
+}
+
+/* media query */
+@media screen and (max-width: 900px) {
+  a.navlinksLeft:hover {
+    color: hsl(40, 100%, 50%) !important;
+    background-color: transparent;
+    padding: 5px;
+  }
+
+  .navbar-toggler {
+    border-color: hsl(40, 100%, 50%) !important;
+  }
+  
+  .rowMainTop {
+    width: 100% !important;
+    margin: auto !important;
+  }
+
+  .header1 {
+      font-size:34px;
+      line-height: 22px;
+      letter-spacing: 1px;
+  }
+
+  .developersColor {
+    padding-top: 10px;
+  }
+
+  div.container-box {
+    padding-bottom: 15px;
+  }
+
+  .call2ActionRow {
+    position: relative;
+  }
+
+  .btn.btn-primary.btn-lg.float-right {
+    float: none !important;   
+  }
+
+}
+
+/* button styling top section */
+.btn-info {
+  background-color: rgba(0, 46, 91, 0.75) !important;
+  border-color: rgba(0, 46, 91, 0.75) !important;
+  border-radius: 30px !important;
+  }
+
+.btn-info:hover {
+  background-color: rgba(255, 255, 255) !important;
+  border-color: rgba(255, 255, 255) !important;
+  color: #000 !important;
+}
+
+  /* top section styling */
+.rowMainTop {
+  width: 85% !important;
+  margin: auto !important;
+  padding-top: 200px;
+  padding-bottom: 160px;
+}
+  
+.contactForm {
+  width: 55% !important;
+  margin: auto !important;
+  padding-top: 60px !important;
+  padding-bottom: 80px !important;
+}
+  
+/* bg image http://demo.wpsmartapps.com/themes/iconsult/one/wp-content/uploads/2018/05/bg-new.jpg */
+.welcome-section {
+  background-image: url('images/bg-new.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100vh;
+  opacity: 1;
+  visibility: inherit;
+  z-index: 20;
+  }
+
+/* div container under top-image styling */
+.rowUnderTop {
+  width: 85% !important;
+  margin: auto !important;
+  padding-top: 55px !important;
+  padding-bottom: 55px !important;
+}
+
+.container-box p {
+  color: #818181;
+  line-height: 23px;
+  margin: 0 0 10px;
+}
+
+.topIconsText {
+  color: #002e5b;
+}  
+
+/* About us section styling */
+/* image bg http://demo.wpsmartapps.com/themes/iconsult/one/wp-content/uploads/2018/05/services.png */
+#aboutUs {
+  background-image: url('images/services.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  height: 100%;
+}
+
+.aboutUsText {
+  width: 85% !important;
+  margin: auto !important;
+  padding-top: 55px !important;
+  padding-bottom: 55px !important;
+}
+
+.aboutUsHeader2 {
+  color: white;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 45px;
+  text-transform: none;
+  letter-spacing: -2.0px;
+}
+
+.aboutUsP {
+  color: #dadada;
+  padding-top: 20px;
+}
+
+.btn-warning {
+  background-color: hsl(40, 100%, 50%);
+  padding: 7px;
+  color: rgba(0, 46, 91, 0.75) !important;
+  margin-top: 10px;
+}
+
+.quoteBillGates {
+  font-size: 28px;
+  padding-top: 40px;
+  color: lightgrey;
+  font-style: italic;
+}
+
+/* Call 2 action section styling */
+#call2Action {
+  background-color: #363738;
+  height: 100%;
+}
+
+.call2ActionRow {
+  width: 85% !important;
+  margin: auto !important;
+  padding-top: 35px !important;
+  padding-bottom: 35px !important;
+}
+
+.call2Actiontext {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 28px;
+  letter-spacing: -1px;
+  color: #fff;
+  padding-top: 10px;
+}
+
+/* portfolio section styling */
+/* image bg http://creativehedgehog.net/live/html/estimation/wide/img/slides/bg/001.jpg */
+#projects {
+  background-image: url('images/001.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  height: 100%;
+}
+
+.sectionHeaderBlue {
+  color: rgba(0, 46, 91, 0.75) !important;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 28px;
+  letter-spacing: -1px;
+  padding-top: 60px;
+}
+
+.portfolioSectionRow {
+  width: 85% !important;
+  margin: auto !important;
+  padding-top: 55px !important;
+  padding-bottom: 95px !important;
+}
+
+/* pricing section styling */
+.pricingRow {
+  width: 85% !important;
+  margin: auto !important;
+  padding-top: 55px !important;
+  padding-bottom: 55px !important;
+}
+/* pricing table styling */
+.thead-dark th {
+  background-color: #363738 !important;
+  border: 1px solid #363738;
+}
+
+.pricingThColor {
+  color: #dbfff9 !important;
+}
+customerServiceImg
+table {
+  border-left: 1px solid #dee2e6;
+}
+
+tr:hover {
+  background-color: #dbfff9;
+}
+
+/* customer service styling */
+.customerServiceHeader {
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: -1px;
+  background-color: #363738;
+  padding: 15px 10px;
+  margin-top: -16px;
+  text-align: center;
+}
+
+.customerServiceImg {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+
+/* contact section styling */
+/* image bg https://romson.github.io/project0/images/aboutUs.jpg */
+#contact {
+  background-image: url('images/aboutUs.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+
+div.col {
+  margin-bottom: 15px !important;
+}
+
+form {
+  width: 100%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.contactFormHeader {
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 28px;
+  letter-spacing: -1px;
+}
+
+/* footer section */
+#footerSection {
+  background-color: #363738 !important;
+  padding: 15px;
+  text-align: center;
+}
