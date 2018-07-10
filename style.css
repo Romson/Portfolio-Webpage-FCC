@@ -97,7 +97,6 @@ a.navlinksLeft:hover {
   .btn.btn-primary.btn-lg.float-right {
     float: none !important;   
   }
-
 }
 
 /* button styling top section */
@@ -142,7 +141,7 @@ a.navlinksLeft:hover {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .welcome-section {
     background-image: url('images/bg-new.jpg');
     background-repeat: no-repeat;
