@@ -66,6 +66,10 @@ a.navlinksLeft:hover {
   .navbar-toggler {
     border-color: hsl(40, 100%, 50%) !important;
   }
+
+  span.navbar-toggler-icon {
+    color: hsl(40, 100%, 50%) !important;
+  }
   
   .rowMainTop {
     width: 100% !important;
@@ -137,14 +141,17 @@ a.navlinksLeft:hover {
   z-index: 20;
   }
 
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 400px) {
   .welcome-section {
     background-image: url('images/bg-new.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
+    background-attachment: cover;
+    background-position: top left;
+    width: 100% !important;
   }  
 }
+
 
 /* div container under top-image styling */
 .rowUnderTop {
